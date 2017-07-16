@@ -56,5 +56,5 @@ dir="%~"
 clock="%*"
 
 PROMPT=$'${yellow}${clock} ${dir} ${vcs_info_msg_0_} | $(k8s_info) | $(aws_info)
-${yellow}$ '
+${yellow}$ ${reset}'
 
